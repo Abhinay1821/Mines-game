@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +37,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button{
+  width:60px;
+  height:60px;
+  background-color: rgb(227, 223, 223);
+  cursor:pointer;
+  border: 1px solid black;
+  transition: background-color 0.3s ease; 
+}
+.row-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  max-height:300px;
+  flex-direction: row;
+}
+.grid-container{
+  display:flex;
+  flex-direction: column;
 }
